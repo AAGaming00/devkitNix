@@ -32,6 +32,7 @@
           done
 
           mkdir -p $out
+          rm -rf opt/devkitpro/pacman/var/lib/pacman
           cp -r opt $out/opt
           ln -sf $out/opt/devkitpro/tools/bin $out/bin
         '';
