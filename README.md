@@ -15,7 +15,7 @@ To use the toolchains, create a `flake.nix` file and import devkitNix as shown i
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
-    devkitNix.url = "github:bandithedoge/devkitNix";
+    devkitNix.url = "github:AAGaming00/devkitNix";
   };
 
   outputs = {
