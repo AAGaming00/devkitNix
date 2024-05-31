@@ -16,7 +16,7 @@ jobs:
       - uses: liskin/gh-workflow-keepalive@v1
 
   update:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
